@@ -17,25 +17,25 @@ nav {
   margin: 10px;
   border-radius: 16px;
   padding: 0.5 rem;
-  
 }
+
 .logo {
   max-height: 50px;
-  border-radius: 80%;  
+  border-radius: 80%;
 }
+
+
 nav ul li {
   list-style: none;
   display: inline-block;
   padding: 10px 20px;
 }
+
 nav ul li a {
-  color: #1d1d24;
   position: relative;
   padding: 5px 0;
 }
-nav ul li a:hover {
-  color: #fd4766;
-}
+
 nav ul li a:after {
   content: "";
   position: absolute;
@@ -46,13 +46,13 @@ nav ul li a:after {
   transition: 0.3s;
   bottom: 0;
 }
+
 nav ul li a:hover:after {
   width: 100%;
 }
 
 .navbarScroll.navbarDark {
   background-color: rgba(248, 253, 253, 0.9);
-  
 }
 
 #content .btn {
